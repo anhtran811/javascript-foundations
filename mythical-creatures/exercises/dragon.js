@@ -46,9 +46,33 @@ const eat = (dragon) => {
   return newDragon
 }
 
+// function findFireBreathers(dragons) {
+//  let fireBreathers = []
+
+//  dragons.forEach((dragon) => {
+//   if (dragon.temperament === "aggressive") {
+//     fireBreathers.push(dragon)
+//   }
+//  })
+//   return fireBreathers
+// }
+
+// arrow function
+
+const findFireBreathers = (dragons) => {
+  const fireBreathers = []
+  
+  dragons.forEach((dragon) => {
+    if (dragon.temperament === "aggressive" ) {
+      fireBreathers.push(dragon)
+    }
+  })
+  return fireBreathers
+}
+
 module.exports = {
   createDragon, 
   greetRider, 
   eat, 
-  // findFireBreathers
+  findFireBreathers
 }
