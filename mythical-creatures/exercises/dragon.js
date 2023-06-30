@@ -1,8 +1,9 @@
-function createDragon(name, rider, temperament) {
+function createDragon(name, rider, temperament, timesEaten) {
   return {
     name: name,
     rider: rider,
     temperament: temperament,
+    timesEaten: 0
   };
 }
 
