@@ -30,10 +30,25 @@ const greetRider = (dragon) => {
   return `Hi, ${dragon.rider}!`
 }
   
+// function eat(dragon) {
+//   const newDragon = { ...dragon }
+//   newDragon.timesEaten++
+//   newDragon.hungry = newDragon.timesEaten < 3
+//   return newDragon
+// }
+
+// arrow function
+
+const eat = (dragon) => {
+  const newDragon = { ...dragon }
+  newDragon.timesEaten++
+  newDragon.hungry = newDragon.timesEaten < 3
+  return newDragon
+}
 
 module.exports = {
   createDragon, 
   greetRider, 
-  // eat, 
+  eat, 
   // findFireBreathers
 }
