@@ -11,11 +11,21 @@ function createDragon(name, rider, temperament) {
 // const createDragon = (name, rider, temperament) => (
 //     { name, rider, temperament }
 //   )
+
+// function greetRider(dragon) {
+//   return `Hi, ${dragon.rider}!`
+// }
+
+// arrow function
+
+const greetRider = (dragon) => {
+  return `Hi, ${dragon.rider}!`
+}
   
 
 module.exports = {
   createDragon, 
-  // greetRider, 
+  greetRider, 
   // eat, 
   // findFireBreathers
 }

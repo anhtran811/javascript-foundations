@@ -51,7 +51,7 @@ describe('Dragon', function() {
     assert.equal(dragon2.temperament, 'gentle');
   });
 
-  it.skip('should greet their rider', function() {
+  it('should greet their rider', function() {
     var dragon1 = createDragon('Gray', 'Marley', 'aggressive');
     var dragon2 = createDragon('Sky', 'Susie', 'gentle');
 
