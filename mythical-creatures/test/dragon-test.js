@@ -9,20 +9,20 @@ describe('Dragon', function() {
     assert.equal(dragon.name, 'Jeff');
   });
 
-  it.skip('should be able to have a different name', function() {
+  it('should be able to have a different name', function() {
     var dragon = createDragon('Louisa');
 
     assert.equal(dragon.name, 'Louisa');
   });
 
-  it.skip('should have a rider', function() {
+  it('should have a rider', function() {
     var dragon = createDragon('Saphira', 'Eragon');
 
     assert.equal(dragon.name, 'Saphira');
     assert.equal(dragon.rider, 'Eragon');
   });
 
-  it.skip('should be able to have a different rider', function() {
+  it('should be able to have a different rider', function() {
     var dragon = createDragon('Elliot', 'Pete');
 
     assert.equal(dragon.name, 'Elliot');

@@ -1,14 +1,15 @@
-function createDragon(name) {
-  return {
-    name: name,
-  };
-}
+// function createDragon(name, rider) {
+//   return {
+//     name: name,
+//     rider: rider,
+//   };
+// }
 
 // arrow function: 
 
-// const createDragon = (name) => (
-//     { name }
-//   )
+const createDragon = (name, rider) => (
+    { name, rider }
+  )
   
 
 module.exports = {
