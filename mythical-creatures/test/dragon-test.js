@@ -29,7 +29,7 @@ describe('Dragon', function() {
     assert.equal(dragon.rider, 'Pete');
   });
 
-  it.skip('should have a temperament', function() {
+  it('should have a temperament', function() {
     var dragon = createDragon('Saphira', 'Eragon', 'gentle');
 
     assert.equal(dragon.name, 'Saphira');
@@ -37,7 +37,7 @@ describe('Dragon', function() {
     assert.equal(dragon.temperament, 'gentle');
   });
 
-  it.skip('should be able to have different temperaments', function() {
+  it('should be able to have different temperaments', function() {
     var dragon1 = createDragon('Gray', 'Marley', 'aggressive');
     var dragon2 = createDragon('Sky', 'Susie', 'gentle');
 
